@@ -20,7 +20,7 @@ class linkedlist_delete
          {
              head=new_node;
          }
-         new_nodese
+         else
          {
              Node present=head;
              while(present.next!=null)
@@ -49,7 +49,7 @@ class linkedlist_delete
          {
             head=present.next;
          }
-         new_node{ 
+         else{ 
                Node prev;
              while(present.next!=null)
              {   prev =present;
@@ -64,7 +64,7 @@ class linkedlist_delete
               {
                   System.out.println("not found");
               }
-              new_node{ 
+              else{ 
                   disp();
               }
          }
